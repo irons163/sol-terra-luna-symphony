@@ -1,4 +1,4 @@
-# Sol–Terra–Luna Orchestrator
+# Sol–Terra–Luna Symphony
 
 A Codex skill that keeps GPT-5.6 Sol in the main thread as the lead orchestrator, while delegating independent subtasks to Terra Max and Luna Max based on the nature of the work.
 
@@ -30,7 +30,7 @@ Whether Max is selected in the Codex App model picker only affects whether the o
 Run the following on macOS or Linux:
 
 ```bash
-git clone https://github.com/irons163/orchestrate-sol-terra-luna.git "${CODEX_HOME:-$HOME/.codex}/skills/orchestrate-sol-terra-luna"
+git clone https://github.com/irons163/sol-terra-luna-symphony.git "${CODEX_HOME:-$HOME/.codex}/skills/sol-terra-luna-symphony"
 ```
 
 If the current task does not reload the skill, create a new task. If it still does not appear, restart the Codex App.
@@ -40,13 +40,13 @@ If the current task does not reload the skill, create a new task. If it still do
 Explicitly enable the skill in a Codex prompt:
 
 ```text
-$orchestrate-sol-terra-luna
+$sol-terra-luna-symphony
 ```
 
 You can also describe the work directly, for example:
 
 ```text
-Use the Sol–Terra–Luna Orchestrator to review this project: Sol handles integration, Terra Max performs the architecture and security review, and Luna Max runs tests and organizes the errors.
+Use the Sol–Terra–Luna Symphony to review this project: Sol handles integration, Terra Max performs the architecture and security review, and Luna Max runs tests and organizes the errors.
 ```
 
 If Luna Max has not been configured, you can ask:

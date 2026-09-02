@@ -1,5 +1,5 @@
 ---
-name: orchestrate-sol-terra-luna
+name: sol-terra-luna-symphony
 description: "Keep GPT-5.6 Sol in the main thread as the lead orchestrator, delegate difficult but clearly bounded work to GPT-5.6 Terra Max, and assign clear, repeatable work to GPT-5.6 Luna Max. Use when the user requests Sol orchestration, Terra Max or Luna Max subagents, tiered multi-agent coding, parallel code review, module analysis, independent feature implementation, testing, debugging, or result integration. Check model and Max reasoning availability before starting. If any required capability is unavailable, stop all work and explain how to enable it; proceed only after availability is confirmed."
 ---
 
@@ -55,7 +55,7 @@ Handle only clear, bounded, repeatable tasks. Stay within the assigned scope, ve
 
 This configuration only specifies the subagent's model and reasoning effort. It does not grant model access that the account does not already have.
 
-7. Return to this task and retry after setup. If the capability list has not refreshed, open a new task and invoke `$orchestrate-sol-terra-luna` again.
+7. Return to this task and retry after setup. If the capability list has not refreshed, open a new task and invoke `$sol-terra-luna-symphony` again.
 
 Choose the closing message based on the configuration state rather than always repeating the same line:
 
